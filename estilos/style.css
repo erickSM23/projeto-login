@@ -58,7 +58,7 @@ form > div.campo {
     background-color: darkgray;
     margin: 10px 0px;
     height: 40px;
-    border-radius: 5px;
+    border-radius: 10px;
     margin: 5px 0px;
 }
 
@@ -72,6 +72,18 @@ div.campo > span {
     font-size: 2em;
     width: 40px;
     padding: 5px;
+} 
+
+div.campo > input {
+    background-image: radial-gradient(circle, white, black);
+    color: red;
+    font-size: 1em;
+    height: 100%;
+    width: calc(100% - 44px);
+    transform: translateY(-10px);
+    border: 0px;
+    border-radius: 10px;
+    padding: 4px;
 }
 
 form > input[type=submit]{
