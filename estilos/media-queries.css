@@ -28,9 +28,14 @@
         float: right;
         width: 70%;
     }
+
+    div.campo > input {
+        width: calc(100% - 45px);
+    }
+
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 769px) { /*telas grandes*/
     body {
         background-image: radial-gradient(circle, white, black)
     }
@@ -55,5 +60,9 @@
 
     div#formulario > p {
         font-size: 1.2em;
+    }
+
+    div.campo > input {
+        width: calc(100% - 45px);
     }
 }
