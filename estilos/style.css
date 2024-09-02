@@ -54,16 +54,24 @@ div#formulario > h1 {
 div#formulario > p {
     font-size: 0.8em;
 }
-div.campo {
+form > div.campo {
     background-color: darkgray;
-    padding: 5px;
     margin: 10px 0px;
     height: 40px;
-    border-radius: 30px;
+    border-radius: 5px;
+    margin: 5px 0px;
 }
 
 div.campo > label {
     display: none;
+}
+
+div.campo > span {
+    color: white;
+    background-color: black;
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
 }
 
 form > input[type=submit]{
